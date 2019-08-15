@@ -13,9 +13,14 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
 
-    h1 {
-      margin-left: 10px;
-      color: #f8e587;
+    a {
+      display: flex;
+      align-items: center;
+
+      h1 {
+        margin-left: 10px;
+        color: #f8e587;
+      }
     }
   }
 
@@ -23,7 +28,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
 
-    span {
+    a {
       font-weight: 800;
       color: #f8e587;
     }
