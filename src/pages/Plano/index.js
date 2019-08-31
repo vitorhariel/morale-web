@@ -37,7 +37,7 @@ export default function Plano() {
             <Document
               file={PLANO}
               onLoadSuccess={documentLoadSuccess}
-              loading="<h3>Carregando...</h3>"
+              loading={<h3>Carregando...</h3>}
             >
               <Page pageNumber={page} />
             </Document>
