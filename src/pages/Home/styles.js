@@ -78,6 +78,10 @@ export const Content = styled.div`
       font-weight: 800;
       color: #666a86;
     }
+
+    button.main {
+      width: 280px;
+    }
   }
 
   div.middle {
@@ -101,7 +105,7 @@ export const Content = styled.div`
     p {
       font-size: 24px;
       max-width: 590px;
-      text-align: center;
+      text-align: justify;
       padding: 10px;
     }
 
@@ -142,14 +146,14 @@ export const Content = styled.div`
       padding: 0 15px;
 
       img {
-        width: 430px;
+        width: 450px;
         height: 560px;
       }
 
       div.item-text {
         display: flex;
         flex-direction: column;
-        max-width: 420px;
+        max-width: 500px;
 
         h3 {
           font-size: 24px;
@@ -160,11 +164,34 @@ export const Content = styled.div`
         p {
           font-size: 21px;
           color: #666a86;
+          text-align: justify;
+        }
+
+        a {
+          color: #666a86;
+          font-weight: bold;
         }
       }
 
       &:nth-child(even) {
         flex-direction: row-reverse;
+      }
+    }
+
+    .btn-propostas {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      button {
+        margin: 100px 0;
+        height: 65px;
+        width: 330px;
+        background: #f8e587;
+        border-radius: 50px;
+        font-size: 18px;
+        font-weight: 800;
+        color: #666a86;
       }
     }
   }

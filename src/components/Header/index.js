@@ -17,9 +17,9 @@ export default function Header() {
         </Link>
       </div>
       <div className="header-right">
-        <Link to="contato">Contato</Link>
-        <button type="button" onClick={() => history.push('login')}>
-          ENTRAR
+        <Link to="integrantes">Integrantes</Link>
+        <button type="button" onClick={() => history.push('plano')}>
+          PLANO DE AÇÃO
         </button>
       </div>
     </Container>
