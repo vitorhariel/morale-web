@@ -21,6 +21,11 @@ export const Container = styled.div`
       justify-content: center;
       align-items: center;
 
+      h3 {
+        margin: 30px 0;
+        color: #fff;
+      }
+
       div.pages {
         margin-top: 10px;
 
@@ -31,6 +36,10 @@ export const Container = styled.div`
         p {
           font-size: 24px;
           color: #fff;
+        }
+
+        svg {
+          cursor: pointer;
         }
       }
     }

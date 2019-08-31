@@ -34,7 +34,11 @@ export default function Plano() {
           <h1>Plano de Ação</h1>
 
           <div className="pdf">
-            <Document file={PLANO} onLoadSuccess={documentLoadSuccess}>
+            <Document
+              file={PLANO}
+              onLoadSuccess={documentLoadSuccess}
+              loading="<h3>Carregando...</h3>"
+            >
               <Page pageNumber={page} />
             </Document>
             <div className="pages">
