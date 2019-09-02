@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import history from '../../services/history';
 
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/morale-dark.png';
 
 import { Container } from './styles';
 
@@ -13,7 +13,6 @@ export default function Header() {
       <div className="header-left">
         <Link to="/">
           <img src={logo} alt="Morale" />
-          <h1>Morale</h1>
         </Link>
       </div>
       <div className="header-right">

@@ -17,6 +17,10 @@ export const Container = styled.div`
       display: flex;
       align-items: center;
 
+      img {
+        width: 150px;
+      }
+
       h1 {
         margin-left: 10px;
         color: #f8e587;
@@ -45,14 +49,17 @@ export const Container = styled.div`
   }
 
   @media all and (max-width: 481px) {
+    flex-direction: column;
+
+    div.header-left {
+      margin-bottom: 20px;
+    }
+
     div.header-right {
       button {
         height: 36px;
         width: 132px;
-      }
-
-      span {
-        display: none;
+        font-size: 12px;
       }
     }
   }

@@ -6,7 +6,8 @@ import history from '../../services/history';
 
 import Header from '../../components/Header';
 
-import people from '../../assets/ilustrations/people.svg';
+import logo from '../../assets/Logo-morale.png';
+
 import hand from '../../assets/icons/handIcon.png';
 
 import bookIcon from '../../assets/icons/bookIcon.png';
@@ -41,7 +42,7 @@ export default function Home() {
                 <button type="button">NOSSAS PROPOSTAS</button>
               </ScrollLink>
             </div>
-            <img src={people} alt="Pessoas estudando" />
+            <img src={logo} alt="Pessoas estudando" />
           </div>
         </Fade>
         <Fade bottom>
