@@ -19,6 +19,7 @@ export const Container = styled.div`
 
   h2 {
     max-width: 290px;
+    margin-bottom: 5px;
   }
 
   p {

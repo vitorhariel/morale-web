@@ -17,6 +17,8 @@ import jonathan from '../../assets/integrantes/jonathan.jpeg';
 import laylla from '../../assets/integrantes/laylla.jpeg';
 import iwry from '../../assets/integrantes/iwry.jpeg';
 import emanuelle from '../../assets/integrantes/emanuelle.jpeg';
+import vitor from '../../assets/integrantes/vitor.png';
+import leopardo from '../../assets/integrantes/leopardo.png';
 
 export default function Integrantes() {
   const integrantes = [
@@ -47,7 +49,7 @@ export default function Integrantes() {
     {
       nome: 'Vitor Hariel',
       cargo: 'Diretor das Finanças',
-      imagem: everton,
+      imagem: vitor,
       turma: 'INFO 3A',
       texto:
         'Todos sabemos das deficiências que o aplicativo do SUAP tem, então, vamos renovar a experiência dos alunos e alunas, colocando todas as informações necessárias direto no bolso deles. Tenho interesse em me juntar ao grêmio pois estaremos em posição de nos conectarmos diretamente com os alunos e servidores, agindo como representantes para tornar todas as nossas propostas possíveis.',
@@ -95,7 +97,7 @@ export default function Integrantes() {
     {
       nome: 'Leonardo Silva',
       cargo: 'Diretor de Esporte, Lazer e Qualidade de Vida',
-      imagem: laylla,
+      imagem: leopardo,
       turma: 'INFO 1',
       texto:
         'Pretendo ocupar a Diretoria de Esporte e Lazer pois tenho o esporte como uma grande paixão desde infância. E quero ter a oportunidade de tomar a frente disso e executar projetos esportivos pela saúde física e mental.  Gerando entretenimento com espírito pacífico de competitividade em atividades físicas com todos os alunos do campus me enche de força de vontade para fazer com que ninguém fique parado!',
