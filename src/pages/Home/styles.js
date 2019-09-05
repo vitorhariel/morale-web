@@ -196,14 +196,19 @@ export const Content = styled.div`
   }
 
   div.bottom {
+    display: flex;
     padding: 50px 0;
     width: 100%;
     display: flex;
     background: #0d0b10;
     justify-content: center;
+    align-items: center;
 
-    img {
+    svg {
       margin-right: 15px;
+      border: 2px solid rgba(255, 255, 255, 0.5);
+      padding: 10px;
+      border-radius: 50%;
     }
   }
 
@@ -239,14 +244,6 @@ export const Content = styled.div`
 
       div.item:nth-child(even) {
         flex-direction: column;
-      }
-    }
-
-    div.bottom {
-      flex-direction: row;
-      img {
-        width: 50px;
-        height: 50px;
       }
     }
   }

@@ -1,6 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { Link as ScrollLink } from 'react-scroll';
+import { IoLogoInstagram, IoMdAppstore } from 'react-icons/io';
 
 import history from '../../services/history';
 
@@ -17,10 +18,6 @@ import earthIcon from '../../assets/icons/earthIcon.png';
 import security from '../../assets/ilustrations/security.svg';
 import phone from '../../assets/ilustrations/phone.svg';
 import playing from '../../assets/ilustrations/playing.svg';
-
-import insta from '../../assets/social/insta.png';
-import twitter from '../../assets/social/twitter.png';
-import facebook from '../../assets/social/facebook.png';
 
 import { Container, Content } from './styles';
 
@@ -146,9 +143,18 @@ export default function Home() {
           </Fade>
         </div>
         <div className="bottom">
-          <img src={facebook} alt="Facebook" />
-          <img src={insta} alt="Instagram" />
-          <img src={twitter} alt="Twitter" />
+          <a
+            href="https://www.instagram.com/chapa_morale/"
+            target="_blank noopener noreferrer"
+          >
+            <IoLogoInstagram color="#666" size={58} />
+          </a>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.monitory"
+            target="_blank noopener noreferrer"
+          >
+            <IoMdAppstore color="#666" size={58} />
+          </a>
         </div>
       </Content>
     </Container>
