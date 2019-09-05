@@ -121,7 +121,7 @@ export default function Home() {
                   escolar aos arredores da nossa instituiçao, propomos deslocar
                   o portao da saída junto ao Diretor Filipe Quintaes à BR para
                   aumentar a segurança dos alunos e a participacão dos
-                  terceirizados, especializados na segurança da escika.
+                  terceirizados, especializados na segurança da escola.
                 </p>
               </div>
             </div>

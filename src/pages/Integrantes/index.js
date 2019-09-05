@@ -88,7 +88,7 @@ export default function Integrantes() {
     },
     {
       nome: 'Éverton Pereira',
-      cargo: 'DIretor de Comunicação, Marketing e Relações Sociais',
+      cargo: 'Diretor de Comunicação, Marketing e Relações Sociais',
       imagem: everton,
       turma: 'MECA 1A',
       texto:

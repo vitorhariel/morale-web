@@ -219,7 +219,7 @@ export const Content = styled.div`
     div.main img {
       margin-top: 30px;
       width: 280px;
-      height: 280px;
+      height: 50%;
     }
 
     div.middle {
