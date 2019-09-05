@@ -39,6 +39,14 @@ export default function Integrantes() {
         'O meu interesse pelo Grêmio surgiu apenas esse ano, pois foi em 2019 que eu mais me envolvi com ele. Por meio de amizades, percebi que ele não era um centro do qual só “coisas chatas” aconteciam. Assim, meu interesse pelo grêmio cresceu ao ponto de querer ser o presidente de uma chapa. Para mim, o grêmio é agora um lugar de apoio aos estudantes e de interação, do qual não se precisa temer e sim expor suas ideias e conceitos junto a um grupo.',
     },
     {
+      nome: 'Liriel Felix',
+      cargo: 'Secretária Geral',
+      imagem: liriel,
+      turma: 'MECA 1A',
+      texto:
+        'Desde que entrei no IF e soube das eleições para o grêmio fiquei super empolgada! Porém, um tempo se passou e essa ideia esfriou. Até que o corte de verbas foi anunciado pelo governo e o grêmio anterior renunciou. Nesse momento todo aquele desejo e vontade de fazer algo pelo IF voltou... Foi desse jeito que não pensei duas vezes antes de aceitar o convite de participar da Chapa Morale, acredito muito nos meus líderes e sei que, se vencermos, vocês verão um grêmio diferenciado.',
+    },
+    {
       nome: 'Jonathan',
       cargo: 'Secretário Geral',
       imagem: jonathan,
@@ -109,14 +117,6 @@ export default function Integrantes() {
       turma: 'MECA 2A',
       texto:
         'Me interesso com o Grêmio Estudantil, pois ao falarmos sobre essa entidade, falamos sobre responsabilidade com os alunos: responsabilidade de ouvir esses e de dar voz a eles. E é com isso que nós, da Chapa Morale, nos preocupamos: com a representatividade dos alunos.',
-    },
-    {
-      nome: 'Liriel Felix',
-      cargo: 'Esportes',
-      imagem: liriel,
-      turma: 'MECA 1A',
-      texto:
-        'Desde que entrei no IF e soube das eleições para o grêmio fiquei super empolgada! Porém, um tempo se passou e essa ideia esfriou. Até que o corte de verbas foi anunciado pelo governo e o grêmio anterior renunciou. Nesse momento todo aquele desejo e vontade de fazer algo pelo IF voltou... Foi desse jeito que não pensei duas vezes antes de aceitar o convite de participar da Chapa Morale, acredito muito nos meus líderes e sei que, se vencermos, vocês verão um grêmio diferenciado.',
     },
     {
       nome: 'Emanuelle Pereira',
